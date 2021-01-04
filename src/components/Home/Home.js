@@ -8,6 +8,7 @@ import Hosts from './Hosts/Hosts'
 import Footer from '../Footer/Footer'
 import HostingIcon from '../Icons/HostingIcon'
 import ProfileIcon from '../Icons/ProfileIcon'
+import Logout from '../Logout/Logout'
 const home = (props) => {
     return(
         <div className="Home">
@@ -53,6 +54,7 @@ const home = (props) => {
             <Housing/>
             <Hosts/>
             <Footer/>
+            <Logout/>
         </div>
     )
 }
