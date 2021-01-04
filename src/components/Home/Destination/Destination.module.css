@@ -1,0 +1,17 @@
+.Destination{
+        flex: 1;
+    text-align: start;
+}
+
+.Destination img{
+        width:100%;
+        height: auto;
+        flex: 1;
+        text-align: start;
+}
+
+.cityName{
+        margin-left: 0.6rem;
+        font-weight: 600;
+        font-size: large;
+}

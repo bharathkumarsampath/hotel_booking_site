@@ -1,0 +1,56 @@
+.LoginButtons{
+    display: flex;
+    margin-left: 38%;
+}
+.facebook{
+    border-radius: 10px;
+
+}
+.google{
+    border-radius: 5px;
+    background-color: darkgreen;
+}
+
+.btnFacebook { 
+    width: 135px;
+    height:35px;  
+    border-radius: 20px;
+    background: #3b5998;
+    color:white;
+    border:0px transparent;  
+    text-align: center;
+    margin:5px;
+    display: inline-block;
+    cursor: pointer;
+
+  }
+  .btnGoogle { 
+    margin:5px;
+    width: 135px;
+    height:35px;
+    border-radius: 20px;
+    background: #09b434;
+    color:white;
+    border:0px transparent;
+    text-align: center;
+    cursor: pointer;
+  }
+  .btnFacebook:hover {
+    background: #3b5998;
+    opacity: 0.6;
+  }
+  .btnGoogle:hover {
+    background: #db3236;
+    opacity: 0.6;
+  }
+  
+  @media only screen and (max-width : 399px) {
+    .btnFacebook,.btnGoogle{
+      width: 100%
+    }
+  }
+
+  .fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+    margin-right: 10px;
+}

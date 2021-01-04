@@ -1,0 +1,35 @@
+.title{
+    text-align: left;
+    font-size: x-large;
+    font-weight: 500;
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.HostMain{
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    margin-left: 2rem;
+    margin-bottom: 2.3rem;
+    
+}
+
+.Host{
+    flex: 1;
+    text-align: start;
+}
+
+.Host img{
+    width:100%;
+    height: auto;
+    flex: 1;
+    text-align: start;
+}
+
+.HostName{
+    margin-left: 0.6rem;
+    font-weight: 600;
+    font-size: large;
+}

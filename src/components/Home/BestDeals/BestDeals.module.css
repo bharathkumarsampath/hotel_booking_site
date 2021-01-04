@@ -1,0 +1,83 @@
+.bestDeals{
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    margin-left: 2rem;
+}
+
+.bestDealDetails{
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    margin-left: 2rem;
+}
+
+.title{
+    text-align: left;
+    font-size: x-large;
+    font-weight: 500;
+    margin-left: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.bestDeal{
+    flex: 1;
+    text-align: center;
+    box-shadow: 11px 6px 13px rgba(0, 0, 0, 0.16);
+}
+
+.bestDeals img{
+    width:30%;
+    height: auto;
+    flex: 1;
+    text-align: center;
+    box-shadow: 11px 0px 13px rgba(0, 0, 0, 0.16);
+    margin: 0 5rem;
+}
+
+ .bestDealDetail{
+    width:30%;
+    height: auto;
+    flex: 1;
+    text-align: left;
+    box-shadow: 11px 6px 13px rgba(0, 0, 0, 0.16);
+    margin: 0 5rem;
+    
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}   
+
+.dealName{
+    margin-left: 0.6rem;
+    font-weight: 600;
+    font-size: large;
+}
+
+.location{
+    font-weight: 600;
+    font-size: 15px;
+    /* text-align: left; */
+    margin-left: 0.7rem;
+    color: rgba(83, 82, 82, 0.88);
+}
+
+.map{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(65, 63, 63, 0.88);
+    flex-direction: row;
+    display: flex;
+    margin-left: 0.7rem;
+    margin-top: 0.12rem;
+    justify-content: flex-start;
+}
+
+.rating{
+    margin-left: 0.7rem;
+}
+
+.mapText{
+    padding-top: 0.17rem;
+    padding-left: 0.1rem;
+}
+

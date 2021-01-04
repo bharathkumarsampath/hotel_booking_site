@@ -1,0 +1,17 @@
+.footer{
+    width: 1346px;
+    height: 387px;
+    background: #f8f8f8;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.footerChild{
+    font-family: "Segoe UI";
+    color: rgba(83, 82, 82, 0.88);
+    font-weight: 600;
+    font-size: 18px;
+    flex: 1;
+    text-align: center;
+}
