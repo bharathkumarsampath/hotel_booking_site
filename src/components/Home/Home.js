@@ -54,7 +54,7 @@ const home = (props) => {
             <Housing/>
             <Hosts/>
             <Footer/>
-            <Logout/>
+            <Logout {...props}/>
         </div>
     )
 }
