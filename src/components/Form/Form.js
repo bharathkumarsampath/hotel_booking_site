@@ -8,7 +8,7 @@ const form = (props) => {
                     placeholder="Your Email"
                     type="text"
                     id="inputID"
-                    key={'4'}
+                    key={'email'}
                 ></input>
             </div>
             <div className="passInput" key={'3'}>
@@ -16,7 +16,7 @@ const form = (props) => {
                     placeholder="Password"
                     type="text"
                     id="inputID"
-                    key={'5'}
+                    key={'password'}
                 ></input>
             </div>
             <div className="loginBtn">

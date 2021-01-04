@@ -5,13 +5,13 @@
     padding: 10px 10px;
     border-color: rgb(201, 199, 199);
     box-shadow: 2px 2px #e4e4eb;
-    margin: 20px 210px;
+    margin: 20px 256px;
     border: 1px solid #e5e5eb;
     color: #c8c8d4;
 }
 
 .passInput{
-    margin-left: 22%;
+    margin-left: 24%;
     width: 250px;
     border-radius: 20px;
     padding: 10px 10px;
@@ -25,7 +25,7 @@
     border-radius: 20px;
     padding: 10px 10px;
     border-color: rgb(148, 146, 146);
-    margin-left: 22%;
+    margin-left: 24%;
     margin-top: 20px;
 }
 
